@@ -1,0 +1,71 @@
+body{
+    background: url('img/multimedia.jpg');
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+a{
+    text-decoration: none;
+      width: 40%;
+      border: 2px solid yellowgreen;
+      margin: 1% 25%;
+      background-color: #f1a5b0;
+      text-align: center;
+}
+@keyframes firstTeam {
+    0%{
+        transform: translateX(-10000px)
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+#team1{
+animation-name: firstTeam;
+animation-duration: 8s;
+}
+@keyframes secondTeam {
+    0%{
+        transform: translateX(-10000px)
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+#team2{
+animation-name: secondTeam;
+animation-duration: 28s;
+}
+@keyframes thirdTeam {
+    0%{
+        transform: translateX(-10000px)
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+#team3{
+animation-name: thirdTeam;
+animation-duration: 48s;
+}
+@keyframes header {
+    0%{
+        transform: translateX(-10000px)
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+h1{
+    color: brown;
+    text-align: center;
+    padding-right: 12%;
+    animation-name: header;
+    animation-duration: 1s;
+    }
+li:hover{
+    color: #3200a6;
+}

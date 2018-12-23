@@ -1,0 +1,47 @@
+*{
+    font-family: Lobster;
+}
+@keyframes firstItem {
+    0% {
+        transform: translateX(10000px)
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+#item1 {
+    animation-name: firstItem;
+    animation-duration: 8s;
+}
+
+@keyframes secondItem {
+    0% {
+        transform: translateY(-10000px)
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+#item2 {
+    animation-name: secondItem;
+    animation-duration: 40s;
+}
+
+@keyframes thirdItem {
+    0% {
+        transform: translateX(-10000px)
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+#item3 {
+    animation-name: thirdItem;
+    animation-duration: 65s;
+}
+
